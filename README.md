@@ -31,7 +31,7 @@ as well, it is limited to 5 explanations per test. The extension allows to view 
     <ol>
         <li>Перейдіть на сторінку Розширення, ввівши <code>chrome://extensions</code> в новій вкладці.</li>
         <li>Увімкніть режим розробника, натиснувши перемикач поряд із режимом розробника.</li>
-        <li>Натисніть кнопку "Load unpacked" і виберіть каталог розширення.</li>
+        <li>Натисніть кнопку "Load unpacked" і виберіть папку розширення.</li>
     </ol>
     <i>*детальніше на <a href="https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world">офіційному сайті Google</a>.</i>
 </div>
