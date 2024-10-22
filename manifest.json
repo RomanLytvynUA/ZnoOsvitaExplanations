@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Infinite comments",
+    "description": "Allows viewing comments\\explanations for unlimited number of times.",
+    "version": "1.0",
+    "permissions": [
+        "tabs",
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://zno.osvita.ua/*"
+            ],
+            "js": [
+                "./js/changeBtn.js"
+            ]
+        }
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "logo.png"
+    }
+}
